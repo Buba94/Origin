@@ -1,1 +1,9 @@
 First src file
+
+-void print_ten_times(char *msg) {
++void print_n_times(char *msg, int n) {
+int i;
+- for (i = 0; i < 10; i++)
++ for (i = 0; i < n; i++)
+printf(msg);
+}
